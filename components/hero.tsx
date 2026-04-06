@@ -121,7 +121,7 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto text-balance">
-            AlienBee Technologies delivers innovative software products and digital transformation solutions that empower businesses across Africa and beyond.
+            ALienBee Technologies delivers innovative software products and digital transformation solutions that empower businesses across Africa and beyond.
           </p>
 
           {/* CTA Buttons */}
