@@ -1,57 +1,64 @@
 'use client'
 
-import { ArrowRight } from 'lucide-react'
+import { TrendingUp, Zap, Users, Target } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Portfolio() {
-  const projects = [
+  const marketData = [
     {
       id: 1,
-      title: 'Financial Services Platform',
-      category: 'Enterprise Solution',
-      description: 'Complete digital banking solution for a regional financial institution',
-      metrics: ['50K+ Users', '99.9% Uptime', '24/7 Support'],
-      tags: ['Banking', 'Security', 'Scalability'],
+      icon: Users,
+      title: 'Campus E-Commerce Market',
+      size: '$2.5B+',
+      description: 'Growing market for student-focused e-commerce and marketplace solutions across African universities',
     },
     {
       id: 2,
-      title: 'E-Commerce Platform',
-      category: 'Web & Mobile',
-      description: 'Multi-vendor marketplace supporting thousands of merchants',
-      metrics: ['$50M+ GMV', '100K+ Products', 'Real-time Analytics'],
-      tags: ['Web', 'Mobile', 'Payment Integration'],
+      icon: TrendingUp,
+      title: 'Digital Marketplace Growth',
+      size: '45% CAGR',
+      description: 'Mobile commerce adoption in emerging markets growing at a rapid pace with untapped student demographics',
     },
     {
       id: 3,
-      title: 'Supply Chain Management',
-      category: 'Logistics Solution',
-      description: 'Real-time tracking and management system for logistics company',
-      metrics: ['500+ Vehicles', '99.5% Accuracy', '40% Cost Reduction'],
-      tags: ['IoT', 'Analytics', 'Optimization'],
+      icon: Zap,
+      title: 'Campus Merchant Network',
+      size: '10K+ Merchants',
+      description: 'Thousands of on-campus merchants and service providers seeking digital presence and payment solutions',
     },
     {
       id: 4,
-      title: 'Healthcare Management System',
-      category: 'Medical Solution',
-      description: 'Comprehensive platform for patient management and hospital operations',
-      metrics: ['20 Hospitals', '100K+ Patients', 'HIPAA Compliant'],
-      tags: ['Healthcare', 'Compliance', 'Integration'],
+      icon: Target,
+      title: 'Student Population',
+      size: '50M+ Students',
+      description: 'Large addressable market of digitally-savvy students across African campuses ready to adopt mobile commerce',
+    },
+  ]
+
+  const opportunities = [
+    {
+      title: 'Campus Payment Integration',
+      description: 'Partner with universities and fintech providers to offer seamless payment and wallet solutions',
     },
     {
-      id: 5,
-      title: 'Educational Technology Platform',
-      category: 'EdTech Solution',
-      description: 'Learning management system serving educational institutions',
-      metrics: ['50K+ Students', '200+ Courses', '95% Satisfaction'],
-      tags: ['Education', 'E-Learning', 'Analytics'],
+      title: 'Logistics & Delivery Networks',
+      description: 'Expand delivery capabilities with partnerships for same-day campus delivery services',
     },
     {
-      id: 6,
-      title: 'Manufacturing Automation',
-      category: 'Industrial Solution',
-      description: 'IoT and AI-powered manufacturing optimization system',
-      metrics: ['35% Efficiency', '30% Waste Reduction', 'Real-time Monitoring'],
-      tags: ['IoT', 'AI/ML', 'Automation'],
+      title: 'Merchant Tools & Analytics',
+      description: 'Develop premium tools for campus merchants to manage inventory, sales, and customer insights',
+    },
+    {
+      title: 'Regional Expansion',
+      description: 'Scale across multiple university campuses and expand to secondary cities and institutions',
+    },
+    {
+      title: 'Student Loyalty Programs',
+      description: 'Create rewards and loyalty ecosystems to increase user engagement and retention',
+    },
+    {
+      title: 'Social Commerce Integration',
+      description: 'Enable social shopping features allowing students to share and purchase through social platforms',
     },
   ]
 
@@ -62,79 +69,73 @@ export function Portfolio() {
         <div className="text-center mb-16 space-y-4">
           <div className="flex items-center justify-center gap-2">
             <div className="h-px w-8 bg-primary" />
-            <span className="text-primary text-sm font-medium">PORTFOLIO</span>
+            <span className="text-primary text-sm font-medium">MARKET OPPORTUNITY</span>
             <div className="h-px w-8 bg-primary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-balance">
-            Success Stories & Case Studies
+            Massive Market Size & Growth Potential
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-            Discover how we&apos;ve transformed businesses across industries with our innovative solutions.
+            Apis Technologies is positioned at the intersection of campus commerce, digital payments, and emerging market opportunity.
           </p>
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {projects.map((project) => (
-            <div
-              key={project.id}
-              className="group bg-background border border-border/50 rounded-2xl p-6 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 flex flex-col"
-            >
-              {/* Category Badge */}
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-xs font-medium rounded-full">
-                  {project.category}
-                </span>
+        {/* Market Size Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {marketData.map((market) => {
+            const IconComponent = market.icon
+            return (
+              <div
+                key={market.id}
+                className="bg-background border border-border/50 rounded-2xl p-6 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20"
+              >
+                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                  <IconComponent className="text-primary" size={24} />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">{market.title}</h3>
+                <p className="text-2xl font-bold text-primary mb-3">{market.size}</p>
+                <p className="text-foreground/70 text-sm">{market.description}</p>
               </div>
+            )
+          })}
+        </div>
 
-              {/* Title */}
-              <h3 className="text-xl font-bold mb-2 text-foreground">{project.title}</h3>
+        {/* Opportunities Section */}
+        <div className="space-y-8">
+          <div className="text-center space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+              Key Growth Opportunities
+            </h2>
+            <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
+              Strategic opportunities to expand Apis Technologies' footprint and capture market share in the growing campus commerce ecosystem.
+            </p>
+          </div>
 
-              {/* Description */}
-              <p className="text-foreground/70 text-sm mb-4 flex-grow">
-                {project.description}
-              </p>
-
-              {/* Metrics */}
-              <div className="grid grid-cols-3 gap-2 mb-4 pb-4 border-b border-border/30">
-                {project.metrics.map((metric) => (
-                  <div key={metric} className="text-center">
-                    <p className="text-xs text-foreground/60">{metric}</p>
-                  </div>
-                ))}
+          {/* Opportunities Grid */}
+          <div className="grid md:grid-cols-2 gap-6">
+            {opportunities.map((opportunity, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-primary/10 to-background border border-primary/30 rounded-2xl p-8 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
+              >
+                <div className="w-3 h-3 rounded-full bg-primary mb-4" />
+                <h3 className="text-xl font-bold text-foreground mb-3">{opportunity.title}</h3>
+                <p className="text-foreground/70">{opportunity.description}</p>
               </div>
-
-              {/* Tags */}
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs bg-primary/5 text-primary/70 px-2 py-1 rounded border border-primary/20"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-
-              {/* Learn More Link */}
-              <div className="flex items-center text-primary hover:text-primary/80 transition-colors text-sm font-medium cursor-pointer">
-                <span>View Case Study</span>
-                <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* CTA Section */}
-        <div className="text-center space-y-6 pt-8">
+        <div className="text-center space-y-6 pt-12 mt-8 border-t border-border/30">
           <h3 className="text-2xl md:text-3xl font-bold">
-            Ready to start your next project?
+            Ready to explore partnership opportunities?
           </h3>
           <p className="text-foreground/70 max-w-xl mx-auto">
-            Get in touch with our team to discuss how AlienBee Technologies can help transform your business.
+            Get in touch with our team to discuss how we can partner to capture this massive market opportunity.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full">
-            Schedule a Consultation
+            Schedule a Meeting
           </Button>
         </div>
       </div>
