@@ -6,36 +6,14 @@ import { Button } from '@/components/ui/button'
 export function Products() {
   const products = [
     {
-      name: 'Enterprise Solutions',
-      description: 'Comprehensive business software designed to streamline operations and maximize efficiency',
+      name: 'Doyin',
+      description: 'A campus-based e-commerce mobile application designed to connect students with campus merchants and services',
       features: [
-        'Real-time data management',
-        'Advanced reporting capabilities',
-        'Multi-platform support',
-        'Intuitive dashboards',
-        'Scalable infrastructure',
-      ],
-    },
-    {
-      name: 'Customer Engagement',
-      description: 'Powerful platform for building stronger customer relationships and driving loyalty',
-      features: [
-        'Interaction automation',
-        'Pipeline management',
-        'Communication hub',
-        'Performance analytics',
-        'Seamless integrations',
-      ],
-    },
-    {
-      name: 'Digital Transformation',
-      description: 'Complete suite for modernizing your business and unlocking new opportunities',
-      features: [
-        'Cloud solutions',
-        'Data intelligence',
-        'Security infrastructure',
-        'Collaboration tools',
-        'API ecosystem',
+        'Easy product browsing and discovery',
+        'Secure mobile payment integration',
+        'Real-time order tracking',
+        'Campus merchant network',
+        'Student-friendly interface',
       ],
     },
   ]
@@ -59,11 +37,11 @@ export function Products() {
         </div>
 
         {/* Products Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="flex justify-center mb-16">
           {products.map((product) => (
             <div
               key={product.name}
-              className="group bg-card border border-border/50 rounded-2xl p-8 hover:border-primary/50 transition-all duration-300"
+              className="group w-full max-w-2xl bg-card border border-border/50 rounded-2xl p-8 hover:border-primary/50 transition-all duration-300"
             >
               {/* Product Icon/Header */}
               <div className="mb-6">

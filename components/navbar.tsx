@@ -41,7 +41,7 @@ export function Navbar() {
               <span className="text-primary-foreground font-bold text-lg">AB</span>
             </div>
             <span className="text-xl font-bold text-foreground hidden sm:inline">
-              ALienBee
+              Apis
             </span>
           </Link>
 

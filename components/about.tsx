@@ -17,7 +17,7 @@ export function About() {
             Pioneering Digital Innovation in Africa
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-            AlienBee Technologies is a leading software and innovation company dedicated to solving real-world problems through technology and digital transformation.
+            Apis Technologies is a leading software and innovation company dedicated to solving real-world problems through technology and digital transformation.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export function About() {
           <div className="space-y-6">
             <h3 className="text-3xl font-bold">Our Story</h3>
             <p className="text-foreground/70 text-lg">
-              Founded with a mission to drive innovation, AlienBee Technologies has become a trusted partner for businesses seeking digital transformation. We combine local expertise with global standards to deliver solutions that truly make a difference.
+              Founded with a mission to drive innovation, Apis Technologies has become a trusted partner for businesses seeking digital transformation. We combine local expertise with global standards to deliver solutions that truly make a difference.
             </p>
             <p className="text-foreground/70 text-lg">
               From custom software development to comprehensive digital transformation strategies, we&apos;re committed to empowering African businesses and beyond with intelligent, scalable solutions.
@@ -67,7 +67,7 @@ export function About() {
         {/* Why Choose Us */}
         <div className="space-y-8">
           <div className="text-center space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">Why Choose AlienBee?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-balance">Why Choose Apis?</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

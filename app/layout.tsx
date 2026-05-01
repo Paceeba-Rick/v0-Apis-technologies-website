@@ -13,8 +13,8 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'ALienBee Technologies - Building Intelligent Solutions for Africa',
-  description: 'ALienBee Technologies delivers innovative software solutions and digital transformation services for businesses across Africa and beyond.',
+  title: 'Apis Technologies - Building Intelligent Solutions for Africa',
+  description: 'Apis Technologies delivers innovative software solutions and digital transformation services for businesses across Africa and beyond.',
   generator: 'v0.app',
   icons: {
     icon: [
