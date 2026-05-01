@@ -2,6 +2,7 @@
 
 import { Check } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 export function Products() {
   const products = [
@@ -41,36 +42,65 @@ export function Products() {
           {products.map((product) => (
             <div
               key={product.name}
-              className="group w-full max-w-2xl bg-card border border-border/50 rounded-2xl p-8 hover:border-primary/50 transition-all duration-300"
+              className="group w-full max-w-4xl bg-card border border-border/50 rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-300"
             >
-              {/* Product Icon/Header */}
-              <div className="mb-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                  <div className="w-6 h-6 bg-primary rounded-md" />
-                </div>
-                <h3 className="text-2xl font-bold text-foreground">{product.name}</h3>
-              </div>
-
-              {/* Description */}
-              <p className="text-foreground/70 mb-6">{product.description}</p>
-
-              {/* Features */}
-              <div className="space-y-3 mb-8">
-                {product.features.map((feature) => (
-                  <div key={feature} className="flex items-start gap-3">
-                    <Check className="text-primary flex-shrink-0 mt-0.5" size={20} />
-                    <span className="text-foreground/80">{feature}</span>
+              <div className="grid md:grid-cols-2 gap-0">
+                {/* Left: Screenshots */}
+                <div className="flex flex-col gap-4 p-8 bg-gradient-to-b from-card to-background/50">
+                  {/* Splash Screen */}
+                  <div className="flex justify-center items-center">
+                    <Image
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Splash-qXeJaQf5QLLxOxwoDFawAMRg1zTPjp.png"
+                      alt="Doyin App Splash Screen"
+                      width={200}
+                      height={400}
+                      className="rounded-lg shadow-lg"
+                    />
                   </div>
-                ))}
-              </div>
+                  
+                  {/* Home Screen */}
+                  <div className="flex justify-center items-center">
+                    <Image
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/home-0ydr99rRa3GFAtPlGfDFycMPiPVPsX.png"
+                      alt="Doyin App Home Screen"
+                      width={200}
+                      height={400}
+                      className="rounded-lg shadow-lg"
+                    />
+                  </div>
+                </div>
 
-              {/* CTA */}
-              <Button
-                variant="outline"
-                className="w-full border-primary/50 text-foreground hover:bg-primary/10"
-              >
-                Learn More
-              </Button>
+                {/* Right: Product Details */}
+                <div className="p-8 flex flex-col justify-center">
+                  {/* Product Icon/Header */}
+                  <div className="mb-6">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                      <div className="w-6 h-6 bg-primary rounded-md" />
+                    </div>
+                    <h3 className="text-3xl font-bold text-foreground">{product.name}</h3>
+                  </div>
+
+                  {/* Description */}
+                  <p className="text-foreground/70 mb-6 text-lg">{product.description}</p>
+
+                  {/* Features */}
+                  <div className="space-y-3 mb-8">
+                    {product.features.map((feature) => (
+                      <div key={feature} className="flex items-start gap-3">
+                        <Check className="text-primary flex-shrink-0 mt-0.5" size={20} />
+                        <span className="text-foreground/80">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* CTA */}
+                  <Button
+                    className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg"
+                  >
+                    Download App
+                  </Button>
+                </div>
+              </div>
             </div>
           ))}
         </div>

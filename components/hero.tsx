@@ -51,7 +51,7 @@ export function Hero() {
         if (particle.y < 0) particle.y = canvas.height
         if (particle.y > canvas.height) particle.y = 0
 
-        ctx.fillStyle = `rgba(255, 153, 0, ${particle.opacity})`
+        ctx.fillStyle = `rgba(0, 200, 200, ${particle.opacity})`
         ctx.beginPath()
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2)
         ctx.fill()
@@ -65,7 +65,7 @@ export function Hero() {
           const distance = Math.sqrt(dx * dx + dy * dy)
 
           if (distance < 150) {
-            ctx.strokeStyle = `rgba(255, 153, 0, ${0.1 * (1 - distance / 150)})`
+            ctx.strokeStyle = `rgba(0, 200, 200, ${0.1 * (1 - distance / 150)})`
             ctx.beginPath()
             ctx.moveTo(particles[i].x, particles[i].y)
             ctx.lineTo(particles[j].x, particles[j].y)
