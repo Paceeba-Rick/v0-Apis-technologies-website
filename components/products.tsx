@@ -58,13 +58,15 @@ export function Products() {
                 <div className="grid md:grid-cols-3 gap-0">
                   {/* Left: Splash Screen */}
                   <div className="flex justify-center items-center p-8 bg-gradient-to-b from-card to-background/50">
-                    <Image
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Splash-qXeJaQf5QLLxOxwoDFawAMRg1zTPjp.png"
-                      alt="Doyin App Splash Screen"
-                      width={200}
-                      height={400}
-                      className="rounded-lg shadow-lg"
-                    />
+                    <div className="relative w-40 h-80">
+                      <Image
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Splash-qXeJaQf5QLLxOxwoDFawAMRg1zTPjp.png"
+                        alt="Doyin App Splash Screen"
+                        fill
+                        className="rounded-lg shadow-lg object-cover"
+                        priority
+                      />
+                    </div>
                   </div>
 
                   {/* Right: Product Details */}
