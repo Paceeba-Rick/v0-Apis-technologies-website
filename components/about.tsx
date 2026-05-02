@@ -26,10 +26,10 @@ export function About() {
           <div className="space-y-6">
             <h3 className="text-3xl font-bold">Our Story</h3>
             <p className="text-foreground/70 text-lg">
-              Founded with a mission to drive innovation, Apis Technologies has become a trusted partner for businesses seeking digital transformation. We combine local expertise with global standards to deliver solutions that truly make a difference.
+              Founded with a vision to become Africa&apos;s leading technology company, Apis Technologies is building a portfolio of innovative products and solutions that address critical market needs. Starting with Doyin—our flagship campus commerce platform—we&apos;re expanding into fintech, enterprise SaaS, and digital services.
             </p>
             <p className="text-foreground/70 text-lg">
-              From custom software development to comprehensive digital transformation strategies, we&apos;re committed to empowering African businesses and beyond with intelligent, scalable solutions.
+              We combine deep local market knowledge with global engineering excellence to create products that scale. Our goal is to build the infrastructure and tools that power the next generation of African businesses.
             </p>
           </div>
           <div className="relative h-80 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl border border-primary/20 overflow-hidden">

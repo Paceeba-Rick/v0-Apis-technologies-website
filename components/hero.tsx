@@ -121,7 +121,7 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto text-balance">
-            Apis Technologies delivers innovative software products and digital transformation solutions that empower businesses across Africa and beyond.
+            A software innovation company building transformative products and solutions that drive growth across African markets and beyond.
           </p>
 
           {/* CTA Buttons */}
