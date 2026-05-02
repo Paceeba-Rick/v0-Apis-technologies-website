@@ -37,28 +37,28 @@ export function Portfolio() {
 
   const opportunities = [
     {
-      title: 'Campus Payment Integration',
-      description: 'Partner with universities and fintech providers to offer seamless payment and wallet solutions',
+      title: 'Financial Services & Payments',
+      description: 'Build and integrate payment infrastructure, fintech solutions, and financial services to underbanked African markets',
     },
     {
-      title: 'Logistics & Delivery Networks',
-      description: 'Expand delivery capabilities with partnerships for same-day campus delivery services',
+      title: 'Enterprise SaaS Solutions',
+      description: 'Develop business software and management tools for SMEs, corporations, and government institutions across Africa',
     },
     {
-      title: 'Merchant Tools & Analytics',
-      description: 'Develop premium tools for campus merchants to manage inventory, sales, and customer insights',
+      title: 'Pan-African Expansion',
+      description: 'Scale products across multiple African countries and emerging markets to maximize market penetration and reach',
     },
     {
-      title: 'Regional Expansion',
-      description: 'Scale across multiple university campuses and expand to secondary cities and institutions',
+      title: 'Strategic Partnerships',
+      description: 'Partner with telecom providers, financial institutions, and tech platforms to accelerate growth and distribution',
     },
     {
-      title: 'Student Loyalty Programs',
-      description: 'Create rewards and loyalty ecosystems to increase user engagement and retention',
+      title: 'Data & Analytics Capabilities',
+      description: 'Develop advanced analytics, AI-powered insights, and business intelligence tools for customer intelligence',
     },
     {
-      title: 'Social Commerce Integration',
-      description: 'Enable social shopping features allowing students to share and purchase through social platforms',
+      title: 'API & Developer Ecosystem',
+      description: 'Build platform APIs and developer tools to enable third-party integrations and expand Apis as an infrastructure layer',
     },
   ]
 
@@ -76,7 +76,7 @@ export function Portfolio() {
             Massive Market Size & Growth Potential
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-            Apis Technologies is positioned at the intersection of campus commerce, digital payments, and emerging market opportunity.
+            Africa&apos;s digital economy is rapidly expanding with massive opportunities across fintech, e-commerce, enterprise software, and digital services sectors.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export function Portfolio() {
               Key Growth Opportunities
             </h2>
             <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-              Strategic opportunities to expand Apis Technologies' footprint and capture market share in the growing campus commerce ecosystem.
+              Strategic growth vectors for Apis Technologies to establish leadership across Africa&apos;s digital economy and become the continent&apos;s leading technology company.
             </p>
           </div>
 
