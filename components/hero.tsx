@@ -106,7 +106,7 @@ export function Hero() {
           {/* Accent badge */}
           <div className="flex items-center justify-center gap-2 mb-4">
             <div className="h-px w-8 bg-primary" />
-            <span className="text-primary text-sm font-medium">INNOVATION STARTS HERE</span>
+            <span className="text-primary text-sm font-medium">FIND STRENGTH AND RISE HIGH</span>
             <div className="h-px w-8 bg-primary" />
           </div>
 
@@ -121,7 +121,7 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto text-balance">
-            A software innovation company building transformative products and solutions that drive growth across African markets and beyond.
+            Nadir Technologies: A software innovation company building transformative products and solutions that drive growth across African markets and beyond.
           </p>
 
           {/* CTA Buttons */}

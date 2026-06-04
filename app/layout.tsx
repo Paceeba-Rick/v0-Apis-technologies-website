@@ -13,8 +13,8 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Apis Technologies - Building Intelligent Solutions for Africa',
-  description: 'Apis Technologies delivers innovative software solutions and digital transformation services for businesses across Africa and beyond.',
+  title: 'Nadir Technologies - Find Strength and Rise High',
+  description: 'Nadir Technologies delivers innovative software solutions and digital transformation services for businesses across Africa and beyond.',
   generator: 'v0.app',
   icons: {
     icon: [
