@@ -60,8 +60,8 @@ export function Products() {
                   <div className="flex justify-center items-center p-8 bg-gradient-to-b from-card to-background/50">
                     <div className="relative w-40 h-80">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Splash-qXeJaQf5QLLxOxwoDFawAMRg1zTPjp.png"
-                        alt="Doyin App Splash Screen"
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/doyin%20screenshot-R1dIB4Ot7q8JPWUUrUJ3VPd2waOZyG.jpeg"
+                        alt="Doyin App Interface"
                         fill
                         className="rounded-lg shadow-lg object-cover"
                         priority
