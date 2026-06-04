@@ -38,7 +38,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="#" className="flex items-center gap-3 group">
-            <div className="w-14 h-14 bg-gradient-to-br from-primary/30 to-primary/10 rounded-full flex items-center justify-center border border-primary/60 group-hover:border-primary transition-all duration-300 shadow-lg shadow-primary/20">
+            <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center border border-foreground/10 group-hover:border-foreground/20 transition-all duration-300 shadow-lg shadow-black/10">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nadir_logo-removebg-preview-epBDYMgwcqPEWq4sYip5TwoHg7U7Se.png"
                 alt="Nadir Technologies Logo"
