@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Music } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -189,6 +189,13 @@ export function Contact() {
                   aria-label="Facebook"
                 >
                   <Facebook size={20} />
+                </a>
+                <a
+                  href="#"
+                  className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
+                  aria-label="TikTok"
+                >
+                  <Music size={20} />
                 </a>
               </div>
             </div>
