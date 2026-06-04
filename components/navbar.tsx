@@ -37,15 +37,17 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="#" className="flex items-center gap-2">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nadir%20logo-YGXex80PBBSLjz0t6h8BI7W4Gr5cKw.jpeg"
-              alt="Nadir Technologies Logo"
-              width={32}
-              height={32}
-              className="w-8 h-8"
-              priority
-            />
+          <Link href="#" className="flex items-center gap-3">
+            <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center border border-primary/40 hover:border-primary/80 transition-all duration-300">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nadir%20logo-YGXex80PBBSLjz0t6h8BI7W4Gr5cKw.jpeg"
+                alt="Nadir Technologies Logo"
+                width={36}
+                height={36}
+                className="w-9 h-9"
+                priority
+              />
+            </div>
             <span className="text-2xl font-bold text-foreground hidden sm:inline">
               Nadir
             </span>
