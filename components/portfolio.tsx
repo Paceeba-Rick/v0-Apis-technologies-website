@@ -58,7 +58,7 @@ export function Portfolio() {
     },
     {
       title: 'API & Developer Ecosystem',
-      description: 'Build platform APIs and developer tools to enable third-party integrations and expand Apis as an infrastructure layer',
+      description: 'Build platform APIs and developer tools to enable third-party integrations and expand Nadir as an infrastructure layer',
     },
   ]
 
@@ -107,7 +107,7 @@ export function Portfolio() {
               Key Growth Opportunities
             </h2>
             <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-              Strategic growth vectors for Apis Technologies to establish leadership across Africa&apos;s digital economy and become the continent&apos;s leading technology company.
+              Strategic growth vectors for Nadir Technologies to establish leadership across Africa&apos;s digital economy and become the continent&apos;s leading technology company.
             </p>
           </div>
 
