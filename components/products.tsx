@@ -33,7 +33,7 @@ export function Products() {
             Transforming Markets with Intelligent Software
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-            At Apis Technologies, we&apos;re building a portfolio of innovative products that address critical market gaps across Africa. From campus commerce to enterprise solutions, our products are designed for scale and impact.
+            At Nadir Technologies, we&apos;re building a portfolio of innovative products that address critical market gaps across Africa. From campus commerce to enterprise solutions, our products are designed for scale and impact.
           </p>
         </div>
 

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 export function Navbar() {
@@ -36,9 +37,17 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="#" className="flex items-center">
-            <span className="text-2xl font-bold text-primary">
-              Apis
+          <Link href="#" className="flex items-center gap-2">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nadir%20logo-YGXex80PBBSLjz0t6h8BI7W4Gr5cKw.jpeg"
+              alt="Nadir Technologies Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+              priority
+            />
+            <span className="text-2xl font-bold text-foreground hidden sm:inline">
+              Nadir
             </span>
           </Link>
 

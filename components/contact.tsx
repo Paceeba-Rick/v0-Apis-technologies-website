@@ -127,8 +127,8 @@ export function Contact() {
                 <Mail className="text-primary flex-shrink-0 mt-1" size={24} />
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Email</h4>
-                  <a href="mailto:hello@apis.tech" className="text-foreground/70 hover:text-primary transition-colors">
-                    hello@apis.tech
+                  <a href="mailto:hello@nadir.tech" className="text-foreground/70 hover:text-primary transition-colors">
+                    hello@nadir.tech
                   </a>
                   <p className="text-sm text-foreground/60 mt-1">We&apos;ll respond within 24 hours</p>
                 </div>
@@ -203,10 +203,10 @@ export function Contact() {
             {/* About Footer */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold">AT</span>
+                <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                  <span className="text-primary font-bold">N</span>
                 </div>
-                <span className="font-bold">Apis</span>
+                <span className="font-bold">Nadir</span>
               </div>
               <p className="text-foreground/60 text-sm">
                 Building intelligent solutions for Africa&apos;s future.
@@ -293,7 +293,7 @@ export function Contact() {
           {/* Footer Bottom */}
           <div className="border-t border-border/50 pt-8 flex flex-col md:flex-row items-center justify-between">
             <p className="text-foreground/60 text-sm">
-              © 2024 Apis Technologies. All rights reserved.
+              © 2024 Nadir Technologies. All rights reserved.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0 text-sm text-foreground/60">
               <a href="#" className="hover:text-primary transition-colors">

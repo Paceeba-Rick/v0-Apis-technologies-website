@@ -17,7 +17,7 @@ export function About() {
             Pioneering Digital Innovation in Africa
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto text-lg">
-            Apis Technologies is a leading software and innovation company dedicated to solving real-world problems through technology and digital transformation.
+            Nadir Technologies is a leading software and innovation company dedicated to solving real-world problems through technology and digital transformation.
           </p>
         </div>
 
@@ -26,10 +26,10 @@ export function About() {
           <div className="space-y-6">
             <h3 className="text-3xl font-bold">Our Story</h3>
             <p className="text-foreground/70 text-lg">
-              Founded with a vision to become Africa&apos;s leading technology company, Apis Technologies is building a portfolio of innovative products and solutions that address critical market needs. Starting with Doyin—our flagship campus commerce platform—we&apos;re expanding into fintech, enterprise SaaS, and digital services.
+              Founded with a vision to become Africa&apos;s leading technology company, Nadir Technologies is building a portfolio of innovative products and solutions that address critical market needs. Starting with Doyin—our flagship campus commerce platform—we&apos;re expanding into fintech, enterprise SaaS, and digital services.
             </p>
             <p className="text-foreground/70 text-lg">
-              We combine deep local market knowledge with global engineering excellence to create products that scale. Our goal is to build the infrastructure and tools that power the next generation of African businesses.
+              We combine deep local market knowledge with global engineering excellence to create products that scale. Our goal is to build the infrastructure and tools that power the next generation of African businesses, helping them find strength and rise high.
             </p>
           </div>
           <div className="relative h-80 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl border border-primary/20 overflow-hidden">
@@ -67,7 +67,7 @@ export function About() {
         {/* Why Choose Us */}
         <div className="space-y-8">
           <div className="text-center space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">Why Choose Apis?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-balance">Why Choose Nadir?</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
