@@ -64,7 +64,7 @@ export function Products() {
                       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-5 bg-slate-950 rounded-b-2xl z-20" />
                       
                       {/* Screen Container with proper padding */}
-                      <div className="absolute top-6 left-3 right-3 bottom-3 rounded-2xl overflow-hidden bg-white">
+                      <div className="absolute top-5 left-2 right-2 bottom-2 rounded-xl overflow-hidden bg-white">
                         <Image
                           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/doyin%20screenshot-R1dIB4Ot7q8JPWUUrUJ3VPd2waOZyG.jpeg"
                           alt="Doyin App Interface"
