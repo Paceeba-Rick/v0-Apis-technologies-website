@@ -59,12 +59,12 @@ export function Products() {
                   {/* Left: Mobile Phone Mockup */}
                   <div className="flex justify-center items-center p-8 bg-gradient-to-b from-card to-background/50">
                     {/* Phone Frame */}
-                    <div className="relative w-48 h-96 bg-black rounded-3xl border-8 border-gray-800 shadow-2xl">
-                      {/* Phone Notch */}
-                      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-40 h-6 bg-black rounded-b-3xl z-20" />
+                    <div className="relative w-52 h-96 bg-slate-900 rounded-3xl border-8 border-slate-800 shadow-2xl overflow-hidden">
+                      {/* Phone Bezel/Notch Area */}
+                      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-5 bg-slate-950 rounded-b-2xl z-20" />
                       
-                      {/* Screen */}
-                      <div className="absolute inset-8 top-7 rounded-2xl overflow-hidden bg-white">
+                      {/* Screen Container with proper padding */}
+                      <div className="absolute top-6 left-3 right-3 bottom-3 rounded-2xl overflow-hidden bg-white">
                         <Image
                           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/doyin%20screenshot-R1dIB4Ot7q8JPWUUrUJ3VPd2waOZyG.jpeg"
                           alt="Doyin App Interface"
