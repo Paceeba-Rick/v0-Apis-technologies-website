@@ -142,7 +142,7 @@ export function Contact() {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Phone</h4>
                   <a href="tel:+233123456789" className="text-foreground/70 hover:text-primary transition-colors">
-                    +233 (0) 123 456 789
+                    +233 (0) 594 473 819
                   </a>
                   <p className="text-sm text-foreground/60 mt-1">Mon-Fri, 9 AM - 6 PM GMT</p>
                 </div>

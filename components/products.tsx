@@ -56,16 +56,23 @@ export function Products() {
                 className="group w-full max-w-4xl bg-card border border-border/50 rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-300"
               >
                 <div className="grid md:grid-cols-3 gap-0">
-                  {/* Left: Splash Screen */}
+                  {/* Left: Mobile Phone Mockup */}
                   <div className="flex justify-center items-center p-8 bg-gradient-to-b from-card to-background/50">
-                    <div className="relative w-40 h-80">
-                      <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Splash-qXeJaQf5QLLxOxwoDFawAMRg1zTPjp.png"
-                        alt="Doyin App Splash Screen"
-                        fill
-                        className="rounded-lg shadow-lg object-cover"
-                        priority
-                      />
+                    {/* Phone Frame */}
+                    <div className="relative w-52 h-96 bg-slate-900 rounded-3xl border-8 border-slate-800 shadow-2xl overflow-hidden">
+                      {/* Phone Bezel/Notch Area */}
+                      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-5 bg-slate-950 rounded-b-2xl z-20" />
+                      
+                      {/* Screen Container with proper padding */}
+                      <div className="absolute top-5 left-2 right-2 bottom-2 rounded-xl overflow-hidden bg-white">
+                        <Image
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/doyin%20screenshot-R1dIB4Ot7q8JPWUUrUJ3VPd2waOZyG.jpeg"
+                          alt="Doyin App Interface"
+                          fill
+                          className="object-cover"
+                          priority
+                        />
+                      </div>
                     </div>
                   </div>
 
