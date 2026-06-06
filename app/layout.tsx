@@ -13,25 +13,23 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Nadir Technologies - Find Strength and Rise High',
-  description: 'Nadir Technologies delivers innovative software solutions and digital transformation services for businesses across Africa and beyond.',
+  title: 'Nadir Technologies - Find Strength and Rise High | African Tech Company',
+  description: 'Nadir Technologies is a leading software innovation company building transformative products and solutions across Africa. From campus commerce to enterprise SaaS, we drive digital transformation.',
   generator: 'v0.app',
+  keywords: ['Nadir Technologies', 'Software Solutions', 'Digital Transformation', 'Africa Tech', 'Doyin App', 'Enterprise SaaS'],
+  authors: [{ name: 'Nadir Technologies' }],
+  creator: 'Nadir Technologies',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nadir_logo-removebg-preview-epBDYMgwcqPEWq4sYip5TwoHg7U7Se.png',
+    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Nadir_logo-removebg-preview-epBDYMgwcqPEWq4sYip5TwoHg7U7Se.png',
+  },
+  openGraph: {
+    title: 'Nadir Technologies - Find Strength and Rise High',
+    description: 'Leading African tech company building innovative software solutions for digital transformation.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://nadir.tech',
+    siteName: 'Nadir Technologies',
   },
 }
 
