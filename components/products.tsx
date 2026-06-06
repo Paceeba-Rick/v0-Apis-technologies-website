@@ -101,11 +101,21 @@ export function Products() {
                     </div>
 
                     {/* CTA */}
-                    <Button
-                      className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg"
-                    >
-                      Download App
-                    </Button>
+                    <div className="flex gap-4">
+                      <Button
+                        className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg"
+                        onClick={() => window.open('https://play.google.com', '_blank')}
+                      >
+                        Download on Android
+                      </Button>
+                      <Button
+                        variant="outline"
+                        className="flex-1 rounded-lg border-primary/50 text-foreground hover:bg-primary/10"
+                        onClick={() => window.open('https://www.apple.com/app-store', '_blank')}
+                      >
+                        Download on iOS
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </div>

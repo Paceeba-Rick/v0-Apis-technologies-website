@@ -68,7 +68,13 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="flex items-center gap-4">
-            <Button className="hidden sm:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button 
+              className="hidden sm:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground"
+              onClick={() => {
+                const element = document.getElementById('contact')
+                element?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
               Work With Us
             </Button>
 

@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Music } from 'lucide-react'
+import Image from 'next/image'
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -170,32 +171,46 @@ export function Contact() {
               <h4 className="font-bold text-foreground mb-4">Follow Us</h4>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://linkedin.com/company/nadir-technologies"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com/nadir_tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="Twitter"
                 >
                   <Twitter size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://facebook.com/nadir.technologies"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook size={20} />
                 </a>
                 <a
-                  href="#"
-                  className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
+                  href="https://tiktok.com/@nadir_tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors flex items-center justify-center"
                   aria-label="TikTok"
                 >
-                  <Music size={20} />
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_2026-06-04_125107-removebg-preview-W3CmKokzGCC7a72osDk1RMgYCBfbFF.png"
+                    alt="TikTok"
+                    width={20}
+                    height={20}
+                    className="w-5 h-5"
+                  />
                 </a>
               </div>
             </div>
