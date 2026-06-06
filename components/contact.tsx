@@ -170,28 +170,36 @@ export function Contact() {
               <h4 className="font-bold text-foreground mb-4">Follow Us</h4>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://linkedin.com/company/nadir-technologies"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com/nadir_tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="Twitter"
                 >
                   <Twitter size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://facebook.com/nadir.technologies"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://tiktok.com/@nadir_tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg transition-colors"
                   aria-label="TikTok"
                 >

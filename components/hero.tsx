@@ -126,13 +126,24 @@ export function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8"
+              onClick={() => {
+                const element = document.getElementById('products')
+                element?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
               Explore Our Products
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="rounded-full px-8 border-primary/50 text-foreground hover:bg-primary/10"
+              onClick={() => {
+                const element = document.getElementById('contact')
+                element?.scrollIntoView({ behavior: 'smooth' })
+              }}
             >
               Work With Us
             </Button>
