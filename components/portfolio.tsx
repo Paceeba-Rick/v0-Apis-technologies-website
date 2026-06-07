@@ -146,8 +146,7 @@ export function Portfolio() {
           </Button>
         </div>
 
-        <MeetingModal open={meetingModalOpen} onOpenChange={setMeetingModalOpen}
-        </div>
+        <MeetingModal open={meetingModalOpen} onOpenChange={setMeetingModalOpen} />
       </div>
     </div>
   )
