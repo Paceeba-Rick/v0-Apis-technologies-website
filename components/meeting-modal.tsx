@@ -78,15 +78,15 @@ export function MeetingModal({ open, onOpenChange }: MeetingModalProps) {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-md">
-        <DialogHeader>
+      <DialogContent className="w-full max-w-md sm:max-w-lg max-h-[90vh] overflow-y-auto">
+        <DialogHeader className="sticky top-0 bg-card z-10">
           <DialogTitle>Schedule a Meeting</DialogTitle>
           <DialogDescription>
             Let&apos;s discuss how we can work together. Fill in your details and choose a convenient time.
           </DialogDescription>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4 px-1">
           <div>
             <label className="text-sm font-medium text-foreground">Name *</label>
             <Input
@@ -135,7 +135,7 @@ export function MeetingModal({ open, onOpenChange }: MeetingModalProps) {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="text-sm font-medium text-foreground">Date *</label>
               <Input
@@ -144,7 +144,7 @@ export function MeetingModal({ open, onOpenChange }: MeetingModalProps) {
                 value={formData.meeting_date}
                 onChange={handleChange}
                 required
-                className="mt-1"
+                className="mt-1 w-full"
               />
             </div>
 
@@ -156,7 +156,7 @@ export function MeetingModal({ open, onOpenChange }: MeetingModalProps) {
                 value={formData.meeting_time}
                 onChange={handleChange}
                 required
-                className="mt-1"
+                className="mt-1 w-full"
               />
             </div>
           </div>
@@ -185,7 +185,7 @@ export function MeetingModal({ open, onOpenChange }: MeetingModalProps) {
             />
           </div>
 
-          <div className="flex gap-2 pt-4">
+          <div className="sticky bottom-0 bg-card pt-4 mt-6 border-t border-border flex gap-2">
             <Button
               type="button"
               variant="outline"
