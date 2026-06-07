@@ -1,9 +1,12 @@
 'use client'
 
+import { useState } from 'react'
 import { TrendingUp, Zap, Users, Target } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { MeetingModal } from './meeting-modal'
 
 export function Portfolio() {
+  const [meetingModalOpen, setMeetingModalOpen] = useState(false)
   const marketData = [
     {
       id: 1,
@@ -134,9 +137,16 @@ export function Portfolio() {
           <p className="text-foreground/70 max-w-xl mx-auto">
             Get in touch with our team to discuss how we can partner to capture this massive market opportunity.
           </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full"
+            onClick={() => setMeetingModalOpen(true)}
+          >
             Schedule a Meeting
           </Button>
+        </div>
+
+        <MeetingModal open={meetingModalOpen} onOpenChange={setMeetingModalOpen}
         </div>
       </div>
     </div>
