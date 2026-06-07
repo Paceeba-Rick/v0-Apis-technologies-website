@@ -336,7 +336,7 @@ export function Contact() {
           {/* Footer Bottom */}
           <div className="border-t border-border/50 pt-8 flex flex-col md:flex-row items-center justify-between">
             <p className="text-foreground/60 text-sm">
-              © 2024 Nadir Technologies. All rights reserved.
+              © 2026 Nadir Technologies. All rights reserved.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0 text-sm text-foreground/60">
               <a href="#" className="hover:text-primary transition-colors">
